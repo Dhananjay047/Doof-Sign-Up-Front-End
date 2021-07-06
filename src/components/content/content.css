@@ -1,0 +1,70 @@
+.content-container {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  text-align: right;
+}
+
+.content-container h3 {
+  font-weight: 700;
+}
+
+.content-container h3:hover {
+  font-weight: 100;
+}
+
+.content-container p {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.contentImages {
+  display: flex;
+}
+
+.girl-image {
+  position: absolute;
+  left: 24%;
+  top: 50%;
+  z-index: 5;
+  height: 50vh;
+  width: 17vw;
+}
+.laptop-image {
+  position: absolute;
+  left: 50%;
+  top: 122%;
+  z-index: 5;
+  height: 25vh;
+  width: 15vw;
+}
+
+.lock-box {
+  position: absolute;
+  left: 82%;
+  top: 118%;
+  z-index: 7;
+  height: 7vh;
+  width: 3.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 1%;
+  background: #f7d832;
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+
+.lock-box:hover {
+  transform: scale(1.5);
+}
+
+@media only screen and (min-width: 1900px) {
+  .content-container {
+    position: absolute;
+    top: 40%;
+    right: 32.5%;
+    text-align: right;
+  }
+}

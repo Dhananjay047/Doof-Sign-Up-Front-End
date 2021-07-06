@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+.container {
+  width: 80%;
+  height: 80vh;
+  text-align: left;
+  display: flex;
+}
+
+.form-container {
+  padding-top: 15%;
+  font-size: 0.8rem;
+}
+
+form {
+  margin-top: 15%;
+}
+
+.form-label {
+  color: #a5a5a5;
+}
+
+.message {
+  margin-top: 15%;
+  margin-left: -1%;
+  cursor: pointer;
+}
+
+.forgot-password-container {
+  padding-top: 53%;
+  padding-left: 5%;
+  color: #333333;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1900px) {
+  * {
+    font-size: 1.2rem;
+  }
+}

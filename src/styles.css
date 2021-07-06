@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header {
+  background: rgba(255, 255, 255, 0);
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* ******************MAIN-BODY************* */
+
+.main-body {
+  background: rgba(255, 255, 255, 0);
+  height: 80vh;
+  width: 100%;
+  display: flex;
+}
+
+.left {
+  width: 45%;
+  background: rgba(255, 255, 255, 0);
+  height: 80vh;
+}
+
+.design {
+  position: absolute;
+  right: -10%;
+  top: -15%;
+  height: 110vh;
+  width: 55vw;
+  background: #ffe999;
+  border-radius: 50%;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background: rgba(255, 255, 255, 0);
+  height: 5vh;
+  width: 100%;
+}
+
+.bubble {
+  height: 40vh;
+  width: 20vw;
+  border-radius: 50%;
+  background: #f8f8f8;
+  z-index: -1;
+}
+
+.bubble1 {
+  position: absolute;
+  top: -15%;
+  left: -7.5%;
+}
+
+.bubble2 {
+  position: absolute;
+  bottom: -20%;
+  left: 27%;
+}
+
+/* ...................Responsive............... */
+
+@media only screen and (min-width: 1900px) {
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .header {
+    background: rgba(255, 255, 255, 0);
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  /* ******************MAIN-BODY************* */
+
+  .main-body {
+    background: rgba(255, 255, 255, 0);
+    height: 80vh;
+    width: 100%;
+    display: flex;
+  }
+
+  .left {
+    width: 45%;
+    background: rgba(255, 255, 255, 0);
+    height: 80vh;
+  }
+
+  .design {
+    position: absolute;
+    width: 1124px;
+    height: 1124px;
+    left: 1026px;
+    top: -154px;
+    background: #ffe999;
+    border-radius: 50%;
+  }
+
+  .footer {
+    background: rgba(255, 255, 255, 0);
+    height: 5vh;
+    width: 100%;
+  }
+}
