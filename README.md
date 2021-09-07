@@ -1,3 +1,4 @@
+![Screenshot (530)](https://user-images.githubusercontent.com/72164419/132329128-a3238bd5-545b-4877-83ef-f5b27af8057f.png)
 # Doof-Sign-Up-Front-End
 Created with CodeSandbox
 
